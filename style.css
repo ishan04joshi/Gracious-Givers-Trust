@@ -32,6 +32,20 @@ body{
     height: 12rem;
     padding: auto 3rem;
 }
+.mid-img{
+    display: flex;
+    flex-direction: row;
+    float: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.mid-img div{
+    padding: 1rem 7rem;
+}
+.mid-img img{
+    height: 12rem;
+    padding: auto 3rem;
+}
 .text-area {
     color: white;
     margin: 1.3rem auto;
@@ -64,4 +78,106 @@ body{
 .img-wrapper img{
     height: 25rem;
     padding: 0.5rem;
+}
+@media (max-width: 1000px) {
+    body{
+        padding: 0.5rem;
+    }
+    .hero-wrapper div{
+        padding: 0.1rem;
+    }
+    .hero-wrapper img{
+        height: 18rem;
+        padding: 0.5rem;
+    }
+    .mid-img img{
+        height: 15rem;
+    }
+    .mid-img div{
+        padding: 0.5rem;
+    }
+    .img-wrapper img{
+        height: 20rem;
+        padding: 0.1rem;
+    }
+}
+@media (max-width: 850px) {
+    body{
+        padding: 0.5rem;
+    }
+    .hero-wrapper div{
+        padding: 0.1rem;
+    }
+    .hero-wrapper img{
+        height: 14rem;
+        padding: 0.5rem;
+    }
+    .mid-img img{
+        height: 12rem;
+    }
+    .mid-img div{
+        padding: 0.5rem;
+    }
+    .img-wrapper img{
+        height: 20rem;
+        padding: 0.1rem;
+    }
+}
+@media (max-width: 480px) {
+    body{
+        padding: 0.5rem;
+    }
+    .hero-wrapper div{
+        padding: 0.1rem;
+    }
+    .hero-wrapper img{
+        height: 7rem;
+        padding: 0.5rem;
+    }
+    .mid-img img{
+        height: 6.3rem;
+    }
+    .mid-img div{
+        padding: 0.5rem;
+    }
+    .img-wrapper img{
+        height: 10rem;
+        padding: 0.1rem;
+    }
+}
+@media (max-width: 400px) {
+    .mid-img img{
+        height: 6rem;
+    }
+}
+@media (max-width: 300px) {
+    body{
+        padding: 0.5rem;
+    }
+    .hero-wrapper{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-wrapper div{
+        padding: 0.1rem;
+    }
+    .hero-wrapper img{
+        height: 7rem;
+        padding: 0.5rem;
+    }
+    .mid-img{
+        flex-direction: column;
+        align-items: center;
+    }
+    .mid-img img{
+        height: 5rem;
+    }
+    .mid-img div{
+        padding: 0.5rem;
+    }
+    .img-wrapper img{
+        height: 10rem;
+        padding: 0.1rem;
+    }
 }
