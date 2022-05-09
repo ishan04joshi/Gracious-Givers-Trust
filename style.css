@@ -1,0 +1,21 @@
+body{
+    background-color: #1F3263;
+}
+
+.top-heading{
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 1.3rem auto;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+.heading{
+    text-align: center;
+}
+
+.hero-wrapper img{
+    height: 12rem;
+    padding: auto;
+}
