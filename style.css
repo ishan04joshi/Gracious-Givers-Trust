@@ -79,6 +79,16 @@ body{
     height: 25rem;
     padding: 0.5rem;
 }
+.qr-code{
+    display: flex;
+    flex-direction: row;
+    float: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.qr-code img{
+    height: 30rem;
+}
 @media (max-width: 1000px) {
     body{
         padding: 0.5rem;
@@ -99,6 +109,9 @@ body{
     .img-wrapper img{
         height: 20rem;
         padding: 0.1rem;
+    }
+    .qr-code img{
+        height: 25rem;
     }
 }
 @media (max-width: 850px) {
@@ -122,6 +135,9 @@ body{
         height: 20rem;
         padding: 0.1rem;
     }
+    .qr-code img{
+        height: 22rem;
+    }
 }
 @media (max-width: 480px) {
     body{
@@ -144,10 +160,16 @@ body{
         height: 10rem;
         padding: 0.1rem;
     }
+    .qr-code img{
+        height: 15rem;
+    }
 }
 @media (max-width: 400px) {
     .mid-img img{
         height: 6rem;
+    }
+    .qr-code img{
+        height: 14rem;
     }
 }
 @media (max-width: 300px) {
@@ -179,5 +201,8 @@ body{
     .img-wrapper img{
         height: 10rem;
         padding: 0.1rem;
+    }
+    .qr-code img{
+        height: 10rem;
     }
 }
